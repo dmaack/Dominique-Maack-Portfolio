@@ -1,0 +1,45 @@
+@import 'config';
+
+// Genereal Styles
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+ul {
+    list-style: none;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%
+}
+
+
+// Header
+
+#header {
+    &-home {
+        background: $bg-image no-repeat center right / cover;
+        height: 100vh;
+        color: white
+    }
+
+    &-inner {
+
+    }
+}
