@@ -1,6 +1,7 @@
 .items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    // grid-gap: 2rem;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -44,10 +45,6 @@
         transform: translateZ(0);
         display: block;
         transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
-
-        &-special {
-            filter: invert(1);
-        }
     }
 
     &-image:before {
@@ -55,8 +52,6 @@
         display: block;
         padding-top: 75%;
         overflow: hidden;
-
-        
     }
 
     &-image img {
@@ -64,9 +59,9 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: auto;
+        height: 100%;
         line-height: 0;
-        // object-fit: inherit;   
+        object-fit: inherit;   
     }
 
     &-text {
@@ -102,5 +97,13 @@
         font-size: 1.2rem;
         opacity: 0.7;
         margin: 0;
+    }
+
+    .btn-light {
+        &:hover {
+            background-color: $dark-color;
+            color: $light-color;
+            font-size: 1.1rem;
+        }
     }
 }
