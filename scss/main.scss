@@ -278,25 +278,45 @@ img {
 // Project Descriptions
 #projects {
     &-a {
-        .details {
+        .project-info {
             display: grid;
+            grid-template-areas:
+            'projectimage projectdescription projectdescription';
+            grid-gap: 2rem;
+            margin-bottom: 2rem;
         }
 
+        .project-image {
+            grid-area: projectimage;
+            max-width: 350px;
+            height: 360px;
+            object-fit: inherit;
+        }
 
         .project-description {
-            
+            grid-area: projectdescription;
             border-left: 3px solid $main-color;
             padding: 1rem;
+            width: 800px;
 
             h4 {
                 font-size: 1.3rem;
             }
 
             p {
-                margin-top: 2rem;
+                // margin-top: 1rem;
                 padding: 2rem;
                 font-size: 1.2rem;
+                // text-align: left;
+                
             }
+
+            ul {
+                margin-bottom: 1rem;
+                // text-align: left;
+                padding: 2rem;
+            }
+
         }
     }
 }
@@ -390,3 +410,6 @@ img {
         }
      }
  }
+
+ // Import Media Queries
+ @import 'media'
