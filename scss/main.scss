@@ -275,6 +275,32 @@ img {
     }
 }
 
+// Project Descriptions
+#projects {
+    &-a {
+        .details {
+            display: grid;
+        }
+
+
+        .project-description {
+            
+            border-left: 3px solid $main-color;
+            padding: 1rem;
+
+            h4 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                margin-top: 2rem;
+                padding: 2rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
 // Contact Form 
 #contact {
     &-a {

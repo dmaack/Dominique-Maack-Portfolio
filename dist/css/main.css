@@ -99,7 +99,7 @@ input[class^='btn-']:hover {
 
 .items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
 .item {
@@ -346,6 +346,19 @@ img {
     filter: invert(1); }
   #about-b .fab {
     color: #fff; }
+
+#projects-a .details {
+  display: grid; }
+
+#projects-a .project-description {
+  border-left: 3px solid #ffbc00;
+  padding: 1rem; }
+  #projects-a .project-description h4 {
+    font-size: 1.3rem; }
+  #projects-a .project-description p {
+    margin-top: 2rem;
+    padding: 2rem;
+    font-size: 1.2rem; }
 
 #contact-a .text-fields {
   display: grid;
