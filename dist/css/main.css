@@ -448,5 +448,35 @@ img {
       display: none; }
   #header-inner {
     height: 10rem; }
+  #about-b .skills,
+  #contact-b .contact-info,
   .items {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #about-a .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'bio'; }
+  #contact-a .text-fields {
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-b div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #555; }
+    #contact-b div:last-child {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  #contact-c h1 {
+    font-size: 2rem; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem; } }
+
+@media (max-height: 580px) {
+  #header-home .header-content {
+    padding-top: 3rem; } }
+
+@media (max-height: 330px) {
+  #header-home .header-content h1 {
+    font-size: 2rem; } }
