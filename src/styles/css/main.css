@@ -327,22 +327,22 @@ img {
   background: url("../img/ridge.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff;
-  position: relative;
-}
-
-#header-home * {
-  z-index: 10;
 }
 
 #header-home .header-content {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 9%;
+  margin-bottom: 40%;
   position: relative;
 }
 
 #header-home .header-content h1 {
   font-size: 4rem;
   line-height: 1.2;
+}
+
+#header-home .header-content .btn-main:hover {
+  background: #fff;
 }
 
 #header-home::before {

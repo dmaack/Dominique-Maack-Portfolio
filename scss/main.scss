@@ -86,22 +86,31 @@ img {
         background: $bg-image no-repeat center right / cover;
         height: 100vh;
         color: #fff;
-        position: relative;
-        * {
-            z-index: 10;
-        }
+        // position: relative; // overlay
+        // * {
+        //     z-index: 10;
+        // }
         
 
 
         // Header Content
         .header-content {
             text-align: center;
-            padding-top: 8%;
+            padding-top: 9%;
+            margin-bottom: 40%;
             position: relative;
+            //position: absolute;
 
             h1 {
                 font-size: 4rem;
                 line-height: 1.2;
+            }
+
+            .btn-main {
+                &:hover {
+                    background: #fff;
+                    // color: $main-color;
+                }
             }
 
         }
