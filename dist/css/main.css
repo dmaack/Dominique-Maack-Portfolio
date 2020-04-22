@@ -363,26 +363,28 @@ img {
   #about-b .fab {
     color: #fff; }
 
-#projects {
-  width: 90%; }
-  #projects-a .project-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem; }
-  #projects-a .project-image {
-    width: 35%; }
-  #projects-a .project-description {
-    width: 60%;
-    padding: 1rem 1rem 2rem 1rem; }
-    #projects-a .project-description h4 {
-      font-size: 2rem; }
-    #projects-a .project-description p {
-      padding: 1rem;
+#projects-a .project-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem; }
+
+#projects-a .project-image {
+  width: 35%; }
+
+#projects-a .project-description {
+  width: 60%;
+  border-left: 3px solid #ffbc00;
+  padding: 1rem 1rem 2rem 1rem; }
+  #projects-a .project-description h4 {
+    font-size: 2rem; }
+  #projects-a .project-description p {
+    padding: 1rem;
+    font-size: 1.2rem; }
+  #projects-a .project-description ul {
+    margin-bottom: 1rem;
+    padding: 2rem; }
+    #projects-a .project-description ul li {
       font-size: 1.2rem; }
-    #projects-a .project-description ul {
-      margin-bottom: 1rem; }
-      #projects-a .project-description ul li {
-        font-size: 1.2rem; }
 
 #contact-a .text-fields {
   display: grid;
