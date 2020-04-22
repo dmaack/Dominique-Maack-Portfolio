@@ -308,29 +308,44 @@ img {
     }
 }
 
-// Project Descriptions
+// Projects Page 
 #projects {
+    width: 90%;
+    // &:nth-child(4) {
+    //     ul {
+    //         margin-bottom: 3rem;
+    //     }
+    // }
     &-a {
         .project-info {
-            display: grid;
-            grid-template-areas:
-            'projectimage projectdescription projectdescription';
-            grid-gap: 2rem;
+            // display: grid;
+            // grid-template-areas:
+            // 'projectimage projectdescription projectdescription';
+            // grid-gap: 2rem;
+            // margin-bottom: 2rem;
+
+            display: flex;
+            justify-content: space-between;
             margin-bottom: 2rem;
+        
         }
 
         .project-image {
-            grid-area: projectimage;
-            max-width: 350px;
-            height: 360px;
-            object-fit: inherit;
+            // grid-area: projectimage;
+            // max-width: 350px;
+            // height: 360px;
+            // object-fit: inherit;
+            width: 35%;
         }
 
         .project-description {
-            grid-area: projectdescription;
-            border-left: 3px solid $main-color;
-            padding: 1rem;
-            width: 800px;
+            // grid-area: projectdescription;
+            // border-left: 3px solid $main-color;
+            // padding: 1rem;
+            // width: 800px;
+
+            width: 60%;
+            padding: 1rem 1rem 2rem 1rem;
 
             h4 {
                 font-size: 2rem;
@@ -338,16 +353,17 @@ img {
 
             p {
                 // margin-top: 1rem;
-                padding: 2rem;
+                padding: 1rem;
                 font-size: 1.2rem;
-                font-size: 1.2rem;
+                // font-size: 1.2rem;
                 
             }
 
             ul {
                 margin-bottom: 1rem;
-                // text-align: left;
-                padding: 2rem;
+                //// text-align: left;
+                // padding: 2rem;
+                
 
                 li {
                     font-size: 1.2rem;
