@@ -187,6 +187,15 @@
     }
 }
 
+// Desktop
+@media(max-height: 800px) {
+    #header-home {
+        .header-content {
+            padding-top: 3rem;
+        }
+    }
+}
+
 // Landscape 
 @media(max-height: 580px) {
     #header-home {

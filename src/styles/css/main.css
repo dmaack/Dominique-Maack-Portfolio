@@ -778,6 +778,12 @@ img {
   }
 }
 
+@media (max-height: 800px) {
+  #header-home .header-content {
+    padding-top: 3rem;
+  }
+}
+
 @media (max-height: 580px) {
   #header-home .header-content {
     padding-top: 3rem;
