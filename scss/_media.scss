@@ -8,6 +8,19 @@
         }
     }
 
+    #about {
+        &-b {
+            .skills {
+                grid-template-columns: repeat(4, 1fr);
+
+                div:nth-child(13) {
+                     grid-column: 1;
+                }
+            }
+        }
+        
+    }
+
     #projects {
         &-a {
             .project-info {
@@ -32,13 +45,13 @@
                 border-left: none;
                 border-top: 3px solid $main-color;
 
-                a {
-                    // display: grid;
-                    // grid-template-columns: repeat(1, 1fr);
-                    // margin: 2rem auto;
-                    // width: 40%;
+                // a {
+                //     // display: grid;
+                //     // grid-template-columns: repeat(1, 1fr);
+                //     // margin: 2rem auto;
+                //     // width: 40%;
                     
-                }
+                // }
             }
         }
         
