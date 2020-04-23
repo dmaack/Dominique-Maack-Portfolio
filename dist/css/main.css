@@ -532,7 +532,8 @@ img {
       line-height: 1.2;
       margin-top: 12%; }
     #header-home .header-content p {
-      font-weight: bold; } }
+      font-weight: bold;
+      margin-bottom: 0; } }
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
