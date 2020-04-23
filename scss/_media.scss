@@ -214,6 +214,11 @@
     #header-home {
         .header-content {
             padding-top: 3rem;
+
+            h1 {
+                font-size: 3rem;
+                line-height: 1.2;
+            }
         }
     }
 }

@@ -526,7 +526,10 @@ img {
 
 @media (max-height: 580px) {
   #header-home .header-content {
-    padding-top: 3rem; } }
+    padding-top: 3rem; }
+    #header-home .header-content h1 {
+      font-size: 3rem;
+      line-height: 1.2; } }
 
 @media (max-height: 330px) {
   #header-home .header-content h1 {
