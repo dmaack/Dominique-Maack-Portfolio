@@ -366,16 +366,18 @@ img {
 #projects-a .project-info {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem; }
+  margin-bottom: 2.5rem; }
 
 #projects-a .project-image {
-  width: 35%; }
+  width: 35%;
+  object-fit: cover; }
 
 #projects-a .project-description {
   width: 60%;
   border-left: 3px solid #ffbc00;
   padding: 1rem 1rem 2rem 1rem; }
   #projects-a .project-description h4 {
+    margin-top: 1.2rem;
     font-size: 2rem; }
   #projects-a .project-description p {
     padding: 1rem;
@@ -420,7 +422,7 @@ img {
   text-align: center;
   font-size: 3rem;
   color: #fff;
-  padding: 4rem; }
+  padding: 5.5rem; }
 
 #main-footer {
   background-color: #333;
@@ -448,7 +450,18 @@ img {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  #projects-a .project-info {
+    flex-direction: column;
+    margin: auto 2rem; }
+  #projects-a .project-image {
+    width: 100%;
+    margin-top: 2rem; }
+  #projects-a .project-description {
+    width: 95%;
+    margin: 1.2rem auto;
+    border-left: none;
+    border-top: 3px solid #ffbc00; } }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -470,6 +483,16 @@ img {
     grid-template-columns: 1fr; }
   #about-a .about-info {
     grid-template-areas: 'bioimage' 'bio' 'bio'; }
+  #projects-a .project-info {
+    flex-direction: column;
+    margin: auto 1rem; }
+  #projects-a .project-image {
+    width: 100%; }
+  #projects-a .project-description {
+    width: auto;
+    margin-bottom: 2rem; }
+    #projects-a .project-description a:last-child {
+      margin-top: 1rem; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-b div {

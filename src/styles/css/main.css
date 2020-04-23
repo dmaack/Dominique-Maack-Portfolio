@@ -536,11 +536,13 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 #projects-a .project-image {
   width: 35%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #projects-a .project-description {
@@ -550,6 +552,7 @@ img {
 }
 
 #projects-a .project-description h4 {
+  margin-top: 1.2rem;
   font-size: 2rem;
 }
 
@@ -632,7 +635,7 @@ img {
   text-align: center;
   font-size: 3rem;
   color: #fff;
-  padding: 4rem;
+  padding: 5.5rem;
 }
 
 #main-footer {
@@ -677,6 +680,23 @@ img {
   #header-home .header-content {
     padding-top: 5rem;
   }
+  #projects-a .project-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 2rem;
+  }
+  #projects-a .project-image {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #projects-a .project-description {
+    width: 95%;
+    margin: 1.2rem auto;
+    border-left: none;
+    border-top: 3px solid #ffbc00;
+  }
 }
 
 @media (max-width: 500px) {
@@ -711,6 +731,23 @@ img {
   }
   #about-a .about-info {
         grid-template-areas: 'bioimage' 'bio' 'bio';
+  }
+  #projects-a .project-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 1rem;
+  }
+  #projects-a .project-image {
+    width: 100%;
+  }
+  #projects-a .project-description {
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  #projects-a .project-description a:last-child {
+    margin-top: 1rem;
   }
   #contact-a .text-fields {
         grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
