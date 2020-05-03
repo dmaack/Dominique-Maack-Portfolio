@@ -43,19 +43,19 @@ input[class^='btn-']:hover {
 .bg {
     &-main {
         background: $main-color;
-        color: sest-text-color($main-color);
+        color: set-text-color($main-color);
     }
     &-dark {
         background: $dark-color;
-        color: sest-text-color($dark-color);
+        color: set-text-color($dark-color);
     }
     &-light {
         background: $light-color;
-        color: sest-text-color($light-color);
+        color: set-text-color($light-color);
     }
     &-medium {
         background: $medium-color;
-        color: sest-text-color($medium-color);
+        color: set-text-color($medium-color);
     }
 }
 
