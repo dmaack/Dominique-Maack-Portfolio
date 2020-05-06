@@ -352,8 +352,6 @@ img {
     grid-gap: 1.5rem;
     text-align: center;
     margin-top: 2.5rem; }
-    #about-b .skills div:nth-child(13) {
-      grid-column: 2 / span 1; }
   #about-b h4 {
     font-size: 25px;
     color: #ffbc00; }
