@@ -367,6 +367,8 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2.5rem; }
+  #projects-a .project-info a:hover {
+    color: #333; }
 
 #projects-a .project-image {
   width: 35%;
@@ -411,6 +413,8 @@ img {
 
 #contact-a button[type='submit'] {
   width: 50%; }
+  #contact-a button[type='submit']:hover {
+    color: #333; }
 
 #contact-b .contact-info {
   display: grid;

@@ -328,6 +328,12 @@ img {
             // grid-template-columns: repeat(2, 1fr);
             // grid-gap: 1.2rem;
             // padding: 2rem;
+
+            a {
+                &:hover {
+                    color: $dark-color;
+                }
+            }
         }
 
         .project-image {
@@ -418,6 +424,9 @@ img {
 
         button[type='submit'] {
             width: 50%;
+            &:hover {
+                color: $dark-color;
+            }
         }
     }
 
