@@ -31,19 +31,19 @@ input[class^='btn-']:hover {
 
 .bg-main {
   background: #ffbc00;
-  color: sest-text-color(#ffbc00); }
+  color: #fff; }
 
 .bg-dark {
   background: #333;
-  color: sest-text-color(#333); }
+  color: #fff; }
 
 .bg-light {
   background: #f4f4f4;
-  color: sest-text-color(#f4f4f4); }
+  color: #000; }
 
 .bg-medium {
   background: #ccc;
-  color: sest-text-color(#ccc); }
+  color: #000; }
 
 .lead {
   font-size: 1.3rem;
