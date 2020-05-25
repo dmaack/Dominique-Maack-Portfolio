@@ -493,7 +493,7 @@ img {
 }
 
 #about-a .bio p {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 2rem;
   font-size: 1.2rem;
 }
@@ -570,6 +570,10 @@ img {
   font-size: 1.2rem;
 }
 
+#projects-a .project-description ul li:nth-child(2) {
+  margin-top: 1rem;
+}
+
 #contact-a .text-fields {
   display: -ms-grid;
   display: grid;
@@ -635,7 +639,7 @@ img {
   text-align: center;
   font-size: 3rem;
   color: #fff;
-  padding: 5.5rem;
+  padding: 4rem;
 }
 
 #main-footer {
@@ -679,6 +683,14 @@ img {
   }
   #header-home .header-content {
     padding-top: 5rem;
+  }
+  #about-b .skills {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  #about-b .skills div:nth-child(13) {
+    -ms-grid-column: 1;
+    grid-column: 1;
   }
   #projects-a .project-info {
     -webkit-box-orient: vertical;
@@ -787,6 +799,15 @@ img {
 @media (max-height: 580px) {
   #header-home .header-content {
     padding-top: 3rem;
+  }
+  #header-home .header-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-top: 10%;
+  }
+  #header-home .header-content p {
+    font-weight: bold;
+    margin-bottom: 0;
   }
 }
 

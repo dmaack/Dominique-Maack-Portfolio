@@ -352,8 +352,6 @@ img {
     grid-gap: 1.5rem;
     text-align: center;
     margin-top: 2.5rem; }
-    #about-b .skills div:nth-child(13) {
-      grid-column: 2 / span 1; }
   #about-b h4 {
     font-size: 25px;
     color: #ffbc00; }
@@ -369,6 +367,8 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2.5rem; }
+  #projects-a .project-info a:hover {
+    color: #333; }
 
 #projects-a .project-image {
   width: 35%;
@@ -413,6 +413,8 @@ img {
 
 #contact-a button[type='submit'] {
   width: 50%; }
+  #contact-a button[type='submit']:hover {
+    color: #333; }
 
 #contact-b .contact-info {
   display: grid;
