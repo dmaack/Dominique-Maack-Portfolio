@@ -344,6 +344,12 @@ img {
     padding: 2rem;
     font-size: 1.2rem; }
 
+#about-c .certifications {
+  margin-bottom: 3rem; }
+  #about-c .certifications div, #about-c .certifications iframe {
+    display: block;
+    margin: 2rem auto 0 auto; }
+
 #about-b {
   color: #fff; }
   #about-b .skills {
