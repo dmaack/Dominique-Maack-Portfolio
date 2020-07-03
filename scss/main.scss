@@ -273,6 +273,18 @@ img {
             }
         }
     }
+    
+    // certifications
+    &-c {
+        .certifications {
+            margin-bottom: 3rem;
+            
+            div, iframe {
+                display: block;
+                margin: 2rem auto 0 auto;
+            }
+        }
+    }
 
     // skills
     &-b {
@@ -307,6 +319,7 @@ img {
             color: #fff;
         }
     }
+
 }
 
 // Projects Page 
